@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - develop
+      - falha-teste-simulada
 
   pull_request:
     branches:

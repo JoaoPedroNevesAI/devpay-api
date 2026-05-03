@@ -1,4 +1,3 @@
-````md
 # DevPay API
 
 Projeto acadêmico desenvolvido para a disciplina de **Versionamento, Automação e CI**, com foco na aplicação de práticas DevOps utilizando GitHub.
@@ -9,11 +8,11 @@ Projeto acadêmico desenvolvido para a disciplina de **Versionamento, Automaçã
 
 Demonstrar como o uso de:
 
-- versionamento com Git
-- estratégia de branches
-- Pull Requests
-- Integração Contínua (CI)
-- automação com GitHub Actions
+* versionamento com Git
+* estratégia de branches
+* Pull Requests
+* Integração Contínua (CI)
+* automação com GitHub Actions
 
 pode reduzir riscos, aumentar previsibilidade e melhorar a qualidade das entregas.
 
@@ -21,12 +20,12 @@ pode reduzir riscos, aumentar previsibilidade e melhorar a qualidade das entrega
 
 ## 🚀 Tecnologias Utilizadas
 
-- Node.js
-- Express.js
-- Jest
-- Supertest
-- ESLint
-- GitHub Actions
+* Node.js
+* Express.js
+* Jest
+* Supertest
+* ESLint
+* GitHub Actions
 
 ---
 
@@ -34,17 +33,17 @@ pode reduzir riscos, aumentar previsibilidade e melhorar a qualidade das entrega
 
 Executado automaticamente em:
 
-- `push`
-- `pull_request`
+* `push`
+* `pull_request`
 
 ### Etapas automatizadas:
 
-- Checkout do repositório
-- Configuração do Node.js
-- Instalação de dependências
-- Lint
-- Build
-- Testes automatizados
+* Checkout do repositório
+* Configuração do Node.js
+* Instalação de dependências
+* Lint
+* Build
+* Testes automatizados
 
 ---
 
@@ -53,7 +52,7 @@ Executado automaticamente em:
 ```bash
 npm install
 npm start
-````
+```
 
 Servidor disponível em:
 
@@ -83,17 +82,26 @@ tests/
 
 .github/workflows/
  └── ci.yml
+
+docs/images/
 ```
 
 ---
 
 ## 📸 Evidências
 
-Capturas de execução do pipeline disponíveis em:
+Capturas de execução do pipeline disponíveis na pasta:
 
 ```text
 docs/images/
 ```
+
+Incluindo:
+
+* Execução com sucesso na `main`
+* Falha simulada em branch de desenvolvimento
+* Detalhes do erro detectado
+* Pipeline restaurado após correção
 
 ---
 
@@ -106,8 +114,4 @@ docs/images/
 ---
 
 ## 📘 Disciplina
-
 DevOPS
-
-```
-```
